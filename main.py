@@ -30,9 +30,9 @@ def user_interaction():
     filtered_obj = FilterSortVacancies(filter_word, filter_area, filter_salary, top_n)
 
     filtered_by_description = filtered_obj.filter_by_description(read_vacs_from_json)
-    print(f"Отфильтровано {len(filtered_by_description)} вакансий по описанию")
+    #print(f"Отфильтровано {len(filtered_by_description)} вакансий по описанию")
     filtered_by_area = filtered_obj.filter_by_area(filtered_by_description)
-    print(f"Отфильтровано {len(filtered_by_area)} вакансий по местоположению")
+    #print(f"Отфильтровано {len(filtered_by_area)} вакансий по местоположению")
     filtered_by_salary = filtered_obj.filter_by_salary(filtered_by_area)
     print(f"Отфильтровано {len(filtered_by_salary)} вакансий по зарплате\n")
 

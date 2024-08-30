@@ -59,8 +59,8 @@ class FilterSortVacancies:
         top_vacancies = ""
         if self.top_n < len(vacancies_list):
             for i in range(self.top_n):
-                top_vacancies += f"Вакансия номер {i + 1}:\n{str(vacancies_list[i])}\n\n"
+                top_vacancies += f"Вакансия {i + 1}:\n{str(vacancies_list[i])}\n\n"
         else:
             for i in range(len(vacancies_list)):
-                top_vacancies += f"Вакансия номер {i + 1}:\n{str(vacancies_list[i])}\n\n"
+                top_vacancies += f"Вакансия {i + 1}:\n{str(vacancies_list[i])}\n\n"
         return top_vacancies

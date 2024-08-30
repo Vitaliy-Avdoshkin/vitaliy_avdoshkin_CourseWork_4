@@ -7,9 +7,9 @@ from config import DATA_DIR
 from src.vacancy import Vacancy
 
 
-class Worker(ABC):
+class BaseFileReader(ABC):
     """
-    Абстрактный родительский класс для чтения и записи файла
+    Абстрактный класс для чтения и записи файла
     """
 
     @abstractmethod
@@ -29,10 +29,10 @@ class Worker(ABC):
         pass
 
 
-class JSONSaver(Worker):
+class JSONSaver(BaseFileReader):
     """
     Класс для чтения из файла, записи в файл списка вакансий
-    Класс Worker является родительским классом
+
     """
 
     filename_value = "vacancies.json"

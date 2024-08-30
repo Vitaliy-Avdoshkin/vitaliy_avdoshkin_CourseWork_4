@@ -38,11 +38,11 @@ class Vacancy:
 
     def __str__(self) -> str:
         name = f"Вакансия: {self.name}"
-        link = f"Ссылка: {self.link}"
         salary = f"Зарплата от: {self.salary}"
         description = f"Описание: {self.description}"
         area = f"Город: {self.area}"
-        return f"{name}\n{link}\n{salary}\n{description}\n{area}"
+        link = f"Ссылка: {self.link}"
+        return f"{name}\n{salary}\n{description}\n{area}\n{link}"
 
     def __lt__(self, other):
         return self.salary < other.salary

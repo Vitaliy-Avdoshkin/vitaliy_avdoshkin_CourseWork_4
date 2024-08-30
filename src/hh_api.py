@@ -10,18 +10,17 @@ class BaseAPI(ABC):
     """
 
     @abstractmethod
-    def get_vacancies(self, keyword):
+    def load_vacancies(self, keyword):
         pass
 
-    # @abstractmethod
-    # def get_vacancies(self):
-    #     pass
+    @abstractmethod
+    def get_vacancies(self):
+        pass
 
 
 class HeadHunterAPI(BaseAPI):
     """
     Класс для работы с платформой hh.ru
-
     """
 
     def __init__(self):
@@ -31,12 +30,13 @@ class HeadHunterAPI(BaseAPI):
         self.vacancies = []
 
 
-    def get_vacancies(self, keyword: str):
+    def load_vacancies(self, keyword: str):
         """
-        Функция для загрузки вакансий по заданному слову
+        Функция для получения вакансий по заданному слову.
+        Приводит полученный список к нужному виду.
         """
         self.params["text"] = keyword
-        while self.params.get("page") != 20:
+        while self.params.get("page") != 2:
             try:
                 response = requests.get(
                     self.__url, headers=self.__headers, params=self.params
@@ -47,17 +47,16 @@ class HeadHunterAPI(BaseAPI):
                 vacancies = response.json()["items"]
                 self.vacancies.extend(vacancies)
                 self.params["page"] += 1
-        return self.vacancies
 
-    # def get_vacancies(self) -> List:
-    #     """
-    #     Возвращает список вакансий
-    #     """
-    #     return self.vacancies
+    def get_vacancies(self) -> List:
+        """
+        Возвращает список вакансий
+        """
+        return self.vacancies
 
 
 if __name__ == "__main__":
-    hh_api = HeadHunterAPI()
-    #hh_api.load_vacancies("Python")
-    hh_vacancies = hh_api.get_vacancies("Python")
+    hh = HeadHunterAPI()
+    hh.load_vacancies("Python")
+    hh_vacancies = hh.get_vacancies()
     print(hh_vacancies)
