@@ -1,20 +1,47 @@
 class Vacancy:
     """
-    Класс для описания вакансии
+    Класс для формирования вакансии
     """
 
-    __slots__ = ("__name", "__link", "__salary", "__description", "__area")
+    __slots__ = (
+        "__name",
+        "__salary_from",
+        "__salary_to",
+        "__description",
+        "__city",
+        "__link",
+    )
 
-    def __init__(self, vac):
-        self.__name = vac["name"] if vac["name"] else "Название не указано"
-        self.__link = vac["alternate_url"] if vac["alternate_url"] else "Ссылка не указана"
-        self.__salary = vac["salary"]["from"] if vac["salary"] and vac["salary"]["from"] else 0
+    def __init__(self, vacancy):
+        self.__name = (
+            vacancy["name"] if vacancy["name"] else "Название вакансии не указано"
+        )
+
+        self.__salary_from = (
+            vacancy["salary"]["from"]
+            if vacancy["salary"] and vacancy["salary"]["from"]
+            else 0
+        )
+        self.__salary_to = (
+            vacancy["salary"]["to"]
+            if vacancy["salary"] and vacancy["salary"]["to"]
+            else 0
+        )
         self.__description = (
-            vac["snippet"]["responsibility"]
-            if vac["snippet"] and vac["snippet"]["responsibility"]
+            vacancy["snippet"]["responsibility"]
+            if vacancy["snippet"] and vacancy["snippet"]["responsibility"]
             else "Описание отсутствует"
         )
-        self.__area = vac["area"]["name"] if vac["area"] and vac["area"]["name"] else "Город не указан"
+        self.__city = (
+            vacancy["area"]["name"]
+            if vacancy["area"] and vacancy["area"]["name"]
+            else "Город не указан"
+        )
+        self.__link = (
+            vacancy["alternate_url"]
+            if vacancy["alternate_url"]
+            else "Ссылка не указана"
+        )
 
     @property
     def name(self):
@@ -25,24 +52,28 @@ class Vacancy:
         return self.__link
 
     @property
-    def salary(self):
-        return self.__salary
+    def salary_from(self):
+        return self.__salary_from
+
+    @property
+    def salary_to(self):
+        return self.__salary_to
 
     @property
     def description(self):
         return self.__description
 
     @property
-    def area(self):
-        return self.__area
+    def city(self):
+        return self.__city
 
     def __str__(self) -> str:
         name = f"Вакансия: {self.name}"
-        salary = f"Зарплата от: {self.salary}"
+        salary = f"Зарплата от: {self.__salary_from} до {self.__salary_to}"
         description = f"Описание: {self.description}"
-        area = f"Город: {self.area}"
+        city = f"Город: {self.city}"
         link = f"Ссылка: {self.link}"
-        return f"{name}\n{salary}\n{description}\n{area}\n{link}"
+        return f"{name}\n{salary}\n{description}\n{city}\n{link}"
 
     def __lt__(self, other):
         return self.salary < other.salary
@@ -58,11 +89,17 @@ if __name__ == "__main__":
     vacancy1 = {
         "name": "повар",
         "alternate_url": "ссылка",
-        "salary": {"from": 10000},
+        "salary": {"from": 10000, "to": 15000},
         "snippet": {"responsibility": "требуется повар"},
         "area": {"name": "Екатеринбург"},
     }
-    vacancy2 = {"name": "таксист", "alternate_url": None, "salary": None, "snippet": None, "area": None}
+    vacancy2 = {
+        "name": "таксист",
+        "alternate_url": None,
+        "salary": {"from": 10000, "to": 15000},
+        "snippet": None,
+        "area": None,
+    }
     x = Vacancy(vacancy1)
     print(x)
     y = Vacancy(vacancy2)

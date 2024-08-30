@@ -26,27 +26,31 @@ class HeadHunterAPI(BaseAPI):
     def __init__(self):
         self.__url = "https://api.hh.ru/vacancies"
         self.__headers = {"User-Agent": "HH-User-Agent"}
-        self.params = {"text": "", "page": 0, "per_page": 100}
+        self.__params = {"text": "", "page": 0, "per_page": 100}
+        self.__code_status = requests.get(self.__url).status_code
         self.vacancies = []
-
 
     def load_vacancies(self, keyword: str):
         """
         Функция для получения вакансий по заданному слову.
-        Приводит полученный список к нужному виду.
         """
-        self.params["text"] = keyword
-        while self.params.get("page") != 2:
-            try:
-                response = requests.get(
-                    self.__url, headers=self.__headers, params=self.params
-                )
-            except Exception as e:
-                print(f"Произошла ошибка {e}")
-            else:
-                vacancies = response.json()["items"]
-                self.vacancies.extend(vacancies)
-                self.params["page"] += 1
+        self.__params["text"] = keyword
+        if self.__code_status != 200:
+            raise NameError(
+                f"Не возможно получить данные, ошибка: Код {self.__code_status}"
+            )
+        else:
+            while self.__params.get("page") != 2:
+                try:
+                    response = requests.get(
+                        self.__url, headers=self.__headers, params=self.__params
+                    )
+                except Exception as e:
+                    print(f"Произошла ошибка {e}")
+                else:
+                    vacancies = response.json()["items"]
+                    self.vacancies.extend(vacancies)
+                    self.__params["page"] += 1
 
     def get_vacancies(self) -> List:
         """

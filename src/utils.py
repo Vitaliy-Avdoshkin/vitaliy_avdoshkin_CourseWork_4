@@ -7,9 +7,9 @@ class FilterSortVacancies:
     Класс для фильтрации, сортировки и вывода топ вакансий
     """
 
-    def __init__(self, filter_word, filter_area, filter_salary, top_n):
+    def __init__(self, filter_word, filter_city, filter_salary, top_n):
         self.filter_word = filter_word
-        self.filter_area = filter_area
+        self.filter_city = filter_city
         self.filter_salary = filter_salary
         self.top_n = top_n
 
@@ -23,13 +23,13 @@ class FilterSortVacancies:
                 filtered_vacancies_list.append(vac)
         return filtered_vacancies_list
 
-    def filter_by_area(self, vacancies_list: List) -> List:
+    def filter_by_city(self, vacancies_list: List) -> List:
         """
         Функция для фильтрации вакансий по заданному городу
         """
         filtered_vacancies_list = []
         for vac in vacancies_list:
-            if re.findall(self.filter_area, vac.area, re.IGNORECASE):
+            if re.findall(self.filter_city, vac.area, re.IGNORECASE):
                 filtered_vacancies_list.append(vac)
         return filtered_vacancies_list
 

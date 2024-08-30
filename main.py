@@ -20,20 +20,20 @@ def user_interaction():
 
     # Обращение к пользователю. Сбор информации
     filter_word = input("Введите ключевое слово для фильтрации вакансий по описанию: ")
-    filter_area = input("Введите город для фильтрации вакансий по местоположению: ")
+    filter_city = input("Введите город для фильтрации вакансий по местоположению: ")
     filter_salary = int(input("Введите желаемую минимальную зарплату: "))
     top_n = int(input("Введите количество вакансий для вывода в топ N: "))
     print("")
 
     read_vacs_from_json = json_saver.read_file()
     # Создание экземпляра класса фильтрации и сортировки вакансий
-    filtered_obj = FilterSortVacancies(filter_word, filter_area, filter_salary, top_n)
+    filtered_obj = FilterSortVacancies(filter_word, filter_city, filter_salary, top_n)
 
     filtered_by_description = filtered_obj.filter_by_description(read_vacs_from_json)
-    #print(f"Отфильтровано {len(filtered_by_description)} вакансий по описанию")
-    filtered_by_area = filtered_obj.filter_by_area(filtered_by_description)
-    #print(f"Отфильтровано {len(filtered_by_area)} вакансий по местоположению")
-    filtered_by_salary = filtered_obj.filter_by_salary(filtered_by_area)
+
+    filtered_by_city = filtered_obj.filter_by_city(filtered_by_description)
+
+    filtered_by_salary = filtered_obj.filter_by_salary(filtered_by_city)
     print(f"Отфильтровано {len(filtered_by_salary)} вакансий по зарплате\n")
 
     sorted_by_salary = filtered_obj.sort_vacancies_by_salary(filtered_by_salary)

@@ -32,7 +32,7 @@ class BaseFileReader(ABC):
 class JSONSaver(BaseFileReader):
     """
     Класс для чтения из файла, записи в файл списка вакансий
-
+    Класс Worker является родительским классом
     """
 
     filename_value = "vacancies.json"
