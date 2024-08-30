@@ -64,10 +64,13 @@ class JSONSaver(BaseFileReader):
             vacs_list.append(
                 {
                     "name": Vacancy(i).name,
-                    "alternate_url": Vacancy(i).link,
-                    "salary": {"from": Vacancy(i).salary},
-                    "snippet": {"responsibility": Vacancy(i).description},
-                    "area": {"name": Vacancy(i).area},
+                    "salary": {
+                        "from": Vacancy(i).salary_from,
+                        "to": Vacancy(i).salary_to,
+                    },
+                    "description": Vacancy(i).description,
+                    "city": Vacancy(i).city,
+                    "link": Vacancy(i).link,
                 }
             )
         with open(self.filename, "w", encoding="utf-8") as f:

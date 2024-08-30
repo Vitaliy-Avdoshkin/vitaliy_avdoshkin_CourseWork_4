@@ -36,9 +36,7 @@ class HeadHunterAPI(BaseAPI):
         """
         self.__params["text"] = keyword
         if self.__code_status != 200:
-            raise NameError(
-                f"Не возможно получить данные, ошибка: Код {self.__code_status}"
-            )
+            raise NameError(f"Возникла ошибка: {self.__code_status}")
         else:
             while self.__params.get("page") != 2:
                 try:

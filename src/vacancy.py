@@ -32,11 +32,13 @@ class Vacancy:
             if vacancy["snippet"] and vacancy["snippet"]["responsibility"]
             else "Описание отсутствует"
         )
+
         self.__city = (
             vacancy["area"]["name"]
             if vacancy["area"] and vacancy["area"]["name"]
             else "Город не указан"
         )
+
         self.__link = (
             vacancy["alternate_url"]
             if vacancy["alternate_url"]
@@ -98,7 +100,7 @@ if __name__ == "__main__":
         "alternate_url": None,
         "salary": {"from": 10000, "to": 15000},
         "snippet": None,
-        "area": None,
+        "area": {"name": "Екатеринбург"},
     }
     x = Vacancy(vacancy1)
     print(x)

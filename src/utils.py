@@ -29,19 +29,24 @@ class FilterSortVacancies:
         """
         filtered_vacancies_list = []
         for vac in vacancies_list:
-            if re.findall(self.filter_city, vac.area, re.IGNORECASE):
+            if re.findall(self.filter_city, vac.city, re.IGNORECASE):
                 filtered_vacancies_list.append(vac)
         return filtered_vacancies_list
 
-    def filter_by_salary(self, vacancies_list: List) -> List:
+    def filter_by_salary(self, vacancies_list: list) -> list:
         """
         Функция для фильтрации вакансий по заданной зарплате
         (оставляет вакансии с зарплатой выше либо равной указанной пользователем)
         """
         filtered_vacancies_list = []
-        for vac in vacancies_list:
-            if vac.salary >= self.filter_salary:
-                filtered_vacancies_list.append(vac)
+        try:
+            for vac in vacancies_list:
+                if vac.salary_from <= int(
+                    self.filter_salary[0]
+                ) and vac.salary_to <= int(self.filter_salary[-1]):
+                    filtered_vacancies_list.append(vac)
+        except:
+            pass
         return filtered_vacancies_list
 
     @staticmethod
@@ -49,7 +54,7 @@ class FilterSortVacancies:
         """
         Функция для сортировки вакансий по зарплате (по убыванию)
         """
-        vacancies_list.sort(key=lambda x: x.salary, reverse=True)
+        vacancies_list.sort(key=lambda x: x.salary_from, reverse=True)
         return vacancies_list
 
     def get_top_vacancies(self, vacancies_list: List) -> str:
