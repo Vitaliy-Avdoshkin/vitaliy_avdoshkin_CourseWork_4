@@ -3,9 +3,9 @@ import os
 from abc import ABC, abstractmethod
 from typing import List
 
-from config import DATA_DIR
-from src.vacancy import Vacancy
 
+from src.vacancy import Vacancy
+from config import *
 
 class BaseFileReader(ABC):
     """
@@ -52,7 +52,7 @@ class JSONSaver(BaseFileReader):
         if os.path.exists(self.filename):
             with open(self.filename, "r", encoding="UTF-8") as f:
                 vacs = json.load(f)
-            self.vacs_list = [Vacancy(i) for i in vacs]
+            self.vacs_list = [i for i in vacs]
         return self.vacs_list
 
     def write_file(self, vacs_obj: List):

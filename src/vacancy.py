@@ -28,10 +28,11 @@ class Vacancy:
             else 0
         )
         self.__description = (
-            vacancy["snippet"]["responsibility"]
-            if vacancy["snippet"] and vacancy["snippet"]["responsibility"]
-            else "Описание отсутствует"
+                vacancy["snippet"]["responsibility"]
+                if vacancy["snippet"] and vacancy["snippet"]["responsibility"]
+                else "Описание отсутствует"
         )
+
 
         self.__city = (
             vacancy["area"]["name"]
@@ -75,7 +76,7 @@ class Vacancy:
         description = f"Описание: {self.description}"
         city = f"Город: {self.city}"
         link = f"Ссылка: {self.link}"
-        return f"{name}\n{salary}\n{description}\n{city}\n{link}"
+        return f"{name}, {salary}, {description}, {city}, {link}"
 
     def __lt__(self, other):
         return self.salary < other.salary

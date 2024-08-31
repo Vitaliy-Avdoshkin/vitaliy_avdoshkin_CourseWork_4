@@ -22,24 +22,27 @@ def user_interaction():
     top_n = int(input('Введите количество вакансий для вывода в топ N: '))
     filter_word = input('Введите ключевое слово для фильтрации вакансий по описанию: ')
     filter_city = input('Введите город для фильтрации вакансий по местоположению: ')
-    filter_salary = input('Введите диапазон интересующих зарплат. Например: 10000-15000: ').split('-')
+    #filter_salary = input('Введите диапазон интересующих зарплат. Например: 10000-15000: ').split('-')
 
     print('')
 
     read_vacs_from_json = json_saver.read_file()
+    print(read_vacs_from_json)
     # Создание экземпляра класса фильтрации и сортировки вакансий
-    filtered_obj = FilterSortVacancies(filter_word, filter_city, filter_salary, top_n)
+    filtered_obj = FilterSortVacancies(filter_word, filter_city, top_n)
+    #filtered_obj = FilterSortVacancies(filter_word, filter_city, filter_salary, top_n)
 
     filtered_by_description = filtered_obj.filter_by_description(read_vacs_from_json)
     print(f"Отфильтровано {len(filtered_by_description)} вакансий по описанию")
-    filtered_by_city = filtered_obj.filter_by_city(filtered_by_description)
+    filtered_by_city = filtered_obj.filter_by_city(read_vacs_from_json)
     print(f"Отфильтровано {len(filtered_by_city)} вакансий по местоположению")
-    filtered_by_salary = filtered_obj.filter_by_salary(filtered_by_city)
-    print(f'Отфильтровано {len(filtered_by_salary)} вакансий по зарплате\n')
+    #filtered_by_salary = filtered_obj.filter_by_salary(filtered_by_city)
+    #print(f'Отфильтровано {len(filtered_by_salary)} вакансий по зарплате\n')
 
-    sorted_by_salary = filtered_obj.sort_vacancies_by_salary(filtered_by_salary)
+    #sorted_by_salary = filtered_obj.sort_vacancies_by_salary(filtered_by_salary)
 
-    top_vacancies = filtered_obj.get_top_vacancies(sorted_by_salary)
+    top_vacancies = filtered_obj.get_top_vacancies(filtered_by_city)
+    #top_vacancies = filtered_obj.get_top_vacancies(sorted_by_salary)
 
     print(f'Топ {top_n} вакансий:\n{top_vacancies}\n')
 
