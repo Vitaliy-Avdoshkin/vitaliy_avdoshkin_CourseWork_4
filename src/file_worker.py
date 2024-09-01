@@ -7,10 +7,11 @@ from typing import List
 from src.vacancy import Vacancy
 from config import *
 
+
 class BaseFileReader(ABC):
-    """
+    '''
     Абстрактный класс для чтения и записи файла
-    """
+    '''
 
     @abstractmethod
     def read_file(self):
@@ -30,12 +31,12 @@ class BaseFileReader(ABC):
 
 
 class JSONSaver(BaseFileReader):
-    """
+    '''
     Класс для чтения из файла, записи в файл списка вакансий
     Класс Worker является родительским классом
-    """
+    '''
 
-    filename_value = "vacancies.json"
+    filename_value = 'vacancies.json'
 
     def __init__(self, filename=filename_value):
         self.vacs_list = []
@@ -46,39 +47,37 @@ class JSONSaver(BaseFileReader):
         return self.__filename
 
     def read_file(self):
-        """
+        '''
         Функция для чтения файла. Проверяет, есть ли файл. И, если есть, сохраняет список объектов
-        """
+        '''
         if os.path.exists(self.filename):
-            with open(self.filename, "r", encoding="UTF-8") as f:
+            with open(self.filename, 'r', encoding='UTF-8') as f:
                 vacs = json.load(f)
             self.vacs_list = [i for i in vacs]
         return self.vacs_list
 
     def write_file(self, vacs_obj: List):
-        """
+        '''
         Функция для записи списка вакансий в файл. Принимает список объектов класса Vacancy.
-        """
+        '''
         vacs_list = []
         for i in vacs_obj:
             vacs_list.append(
                 {
-                    "name": Vacancy(i).name,
-                    "salary": {
-                        "from": Vacancy(i).salary_from,
-                        "to": Vacancy(i).salary_to,
-                    },
-                    "description": Vacancy(i).description,
-                    "city": Vacancy(i).city,
-                    "link": Vacancy(i).link,
+                    'name': Vacancy(i).name,
+                    'salary_from': Vacancy(i).salary_from,
+                    'salary_to': Vacancy(i).salary_to,
+                    'description': Vacancy(i).description,
+                    'city': Vacancy(i).city,
+                    'link': Vacancy(i).link,
                 }
             )
-        with open(self.filename, "w", encoding="utf-8") as f:
+        with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(vacs_list, f, ensure_ascii=False, indent=4)
 
     def add_vacancy(self, vacancy):
         pass
 
     def del_vacancy(self):
-        with open(self.filename, "w") as f:
+        with open(self.filename, 'w') as f:
             pass
