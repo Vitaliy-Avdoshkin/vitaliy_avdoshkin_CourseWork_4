@@ -58,12 +58,12 @@ def hh_vacs_list():
 @pytest.fixture
 def vacancy_1():
     return {
-        "name": "Junior Python",
-        "alternate_url": "https://hh.ru/vacancy/105338726",
-        "salary": {"from": 0},
-        "snippet": {"responsibility": "Создание скриптов"},
+        "name": "Junior Mems Creator",
+        "alternate_url": "https://hh.ru/vacancy/105338852",
+        "salary": {"from": 0, "to": 1000},
+        "snippet": {"responsibility": "Создание мемов"},
         "area": {
-            "name": "Могилев",
+            "name": "Смоленск",
         },
     }
 
@@ -71,10 +71,10 @@ def vacancy_1():
 @pytest.fixture
 def vacancy_2():
     return {
-        "name": "Junior Python",
-        "alternate_url": "https://hh.ru/vacancy/105338726",
-        "salary": {"from": 10000},
-        "snippet": {"responsibility": "Приглашаем Инженера"},
+        "name": "Python Guru",
+        "alternate_url": "https://hh.ru/vacancy/105338852",
+        "salary": {"from": 12000, "to": 20000},
+        "snippet": {"responsibility": "Поиск Python профи"},
         "area": {
             "name": "Москва",
         },

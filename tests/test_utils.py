@@ -1,42 +1,43 @@
-from src.utils import FilterSortVacancies
+from src.utils import VacanciesFilterSort
 from src.vacancy import Vacancy
 
 
 def test_filter_init():
-    test = FilterSortVacancies(
-        filter_word="python", filter_area="москва", filter_salary=0, top_n=5
+    test = VacanciesFilterSort(
+        filter_word="python", filter_city="москва", filter_salary_from=0, filter_salary_to=10, top_n=5
     )
     assert test.filter_word == "python"
-    assert test.filter_area == "москва"
-    assert test.filter_salary == 0
+    assert test.filter_city == "москва"
+    assert test.filter_salary_from == 0
+    assert test.filter_salary_to == 10
     assert test.top_n == 5
 
 
 def test_filter_by_description(vac_list_1, vacancy_1):
-    test = FilterSortVacancies(
-        filter_word="Создание", filter_area="Могилев", filter_salary=0, top_n=5
+    test = VacanciesFilterSort(
+        filter_word="Создание", filter_city="Смоленск", filter_salary_from=0, filter_salary_to=1000, top_n=5
     )
     assert test.filter_by_description(vac_list_1) == [Vacancy(vacancy_1)]
 
 
-def test_filter_by_area(vac_list_1, vacancy_2):
-    test = FilterSortVacancies(
-        filter_word="Создание", filter_area="Москва", filter_salary=0, top_n=5
+def test_filter_by_cityd(vac_list_1, vacancy_2):
+    test = VacanciesFilterSort(
+        filter_word="Создание", filter_city="Москва", filter_salary_from=0, filter_salary_to=1000, top_n=5
     )
-    assert test.filter_by_area(vac_list_1) == [Vacancy(vacancy_2)]
+    assert test.filter_by_city(vac_list_1) == [Vacancy(vacancy_2)]
 
 
 #
 #
 def test_filter_by_salary(vac_list_1, vacancy_2):
-    test = FilterSortVacancies(
+    test = VacanciesFilterSort(
         filter_word="Создание", filter_area="Москва", filter_salary=10, top_n=5
     )
     assert test.filter_by_area(vac_list_1) == [Vacancy(vacancy_2)]
 
 
 def test_sort_vacancies_by_salary(vac_list_1, vacancy_1, vacancy_2):
-    test = FilterSortVacancies(
+    test = VacanciesFilterSort(
         filter_word="Создание", filter_area="Москва", filter_salary=10, top_n=5
     )
     assert test.sort_vacancies_by_salary(vac_list_1) == [
@@ -46,7 +47,7 @@ def test_sort_vacancies_by_salary(vac_list_1, vacancy_1, vacancy_2):
 
 
 def test_get_top_vacancies(vac_list_1):
-    test = FilterSortVacancies(
+    test = VacanciesFilterSort(
         filter_word="Создание", filter_area="Москва", filter_salary=10, top_n=5
     )
     assert test.get_top_vacancies(vac_list_1) == (
