@@ -81,6 +81,26 @@ def vacancy_2():
     }
 
 
+# @pytest.fixture
+# def vac_list_1(vacancy_1, vacancy_2):
+#     return f'[{Vacancy(vacancy_1)}, {Vacancy(vacancy_2)}]'
 @pytest.fixture
-def vac_list_1(vacancy_1, vacancy_2):
-    return [Vacancy(vacancy_1), Vacancy(vacancy_2)]
+def vac_list_1():
+    return [
+    {
+        "name": "Junior Mems Creator",
+        "salary_from": 0,
+        "salary_to": 1000,
+        "description": "Создание мемов",
+        "city": "Смоленск",
+        "link": "https://hh.ru/vacancy/105338852",
+    },
+    {
+        "name": "Python Guru",
+        "salary_from": 12000,
+        "salary_to": 20000,
+        "description": "Поиск Python профи",
+        "city": "Москва",
+        "link": "https://hh.ru/vacancy/105338852",
+    },
+]

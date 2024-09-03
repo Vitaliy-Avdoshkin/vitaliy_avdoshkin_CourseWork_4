@@ -57,8 +57,8 @@ class HeadHunterAPI(BaseAPI):
         return self.vacancies
 
 
-if __name__ == "__main__":
-    hh = HeadHunterAPI()
-    hh.load_vacancies("Python")
-    hh_vacancies = hh.get_vacancies()
-    print(hh_vacancies)
+# if __name__ == "__main__":
+hh = HeadHunterAPI()
+hh.load_vacancies("Python")
+hh_vacancies = hh.get_vacancies()
+# print(hh_vacancies)

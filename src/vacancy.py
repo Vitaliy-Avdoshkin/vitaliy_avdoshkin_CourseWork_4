@@ -1,3 +1,6 @@
+from src.hh_api import hh_vacancies
+
+
 class Vacancy:
     """
     Класс для формирования вакансии
@@ -27,6 +30,7 @@ class Vacancy:
             if vacancy["salary"] and vacancy["salary"]["to"]
             else 0
         )
+
         self.__description = (
             vacancy["snippet"]["responsibility"]
             if vacancy["snippet"] and vacancy["snippet"]["responsibility"]
@@ -71,38 +75,38 @@ class Vacancy:
 
     def __str__(self) -> str:
         name = f"Вакансия: {self.name}"
-        salary = f"Зарплата от: {self.__salary_from} до {self.__salary_to}"
+        salary = f"Зарплата: от {self.__salary_from} до {self.__salary_to}"
         description = f"Описание: {self.description}"
         city = f"Город: {self.city}"
         link = f"Ссылка: {self.link}"
         return f"{name}, {salary}, {description}, {city}, {link}"
 
     def __lt__(self, other):
-        return self.salary < other.salary
+        return self.salary_from < other.salary_from
 
     def __gt__(self, other):
-        return self.salary > other.salary
+        return self.salary_from > other.salary_from
 
     def __eq__(self, other):
-        return self.salary == other.salary
+        return self.salary_from == other.salary_from
 
 
-if __name__ == "__main__":
-    vacancy1 = {
-        "name": "повар",
-        "alternate_url": "ссылка",
-        "salary": {"from": 10000, "to": 15000},
-        "snippet": {"responsibility": "требуется повар"},
-        "area": {"name": "Екатеринбург"},
-    }
-    vacancy2 = {
-        "name": "таксист",
-        "alternate_url": None,
-        "salary": {"from": 10000, "to": 15000},
-        "snippet": None,
-        "area": {"name": "Екатеринбург"},
-    }
-    x = Vacancy(vacancy1)
-    print(x)
-    y = Vacancy(vacancy2)
-    print(y)
+# if __name__ == "__main__":
+#     vacancy1 = {
+#         "name": "повар",
+#         "alternate_url": "ссылка",
+#         "salary": {"from": 10000, "to": 15000},
+#         "snippet": {"responsibility": "требуется повар"},
+#         "area": {"name": "Екатеринбург"},
+#     }
+#     vacancy2 = {
+#         "name": "таксист",
+#         "alternate_url": None,
+#         "salary": {"from": 5600, "to": 281000},
+#         "snippet": None,
+#         "area": {"name": "Екатеринбург"},
+#     }
+#     x = Vacancy(vacancy1)
+#     print(x)
+#     y = Vacancy(vacancy2)
+#     print(y)

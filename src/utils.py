@@ -1,5 +1,6 @@
 import re
 from typing import List
+from src.vacancy import Vacancy
 
 
 class VacanciesFilterSort:
@@ -7,11 +8,10 @@ class VacanciesFilterSort:
     Класс для фильтрации, сортировки и вывода топ вакансий
     """
 
-    def __init__(self, filter_word, filter_city, filter_salary_from, filter_salary_to, top_n):
+    def __init__(self, filter_word, filter_city, filter_salary, top_n):
         self.filter_word = filter_word
         self.filter_city = filter_city
-        self.filter_salary_from = filter_salary_from
-        self.filter_salary_to = filter_salary_to
+        self.filter_salary = filter_salary
         self.top_n = top_n
 
     def filter_by_description(self, vacancies_list: list) -> list:
@@ -20,7 +20,7 @@ class VacanciesFilterSort:
         """
         filtered_vacancies_list = []
         for vac in vacancies_list:
-            if re.findall(self.filter_word, str(vac["description"]), re.IGNORECASE):
+            if re.findall(self.filter_word, vac.description, re.IGNORECASE):
                 filtered_vacancies_list.append(vac)
         return filtered_vacancies_list
 
@@ -30,7 +30,7 @@ class VacanciesFilterSort:
         """
         filtered_vacancies_list = []
         for vac in vacancies_list:
-            if re.findall(self.filter_city, str(vac["city"]), re.IGNORECASE):
+            if re.findall(self.filter_city, vac.city, re.IGNORECASE):
                 filtered_vacancies_list.append(vac)
         return filtered_vacancies_list
 
@@ -44,10 +44,10 @@ class VacanciesFilterSort:
         for vac in vacancies_list:
             try:
                 if (
-                    int(vac["salary_from"]) >= int(self.filter_salary[0])
-                    and int(vac["salary_from"]) <= int(self.filter_salary[-1])
-                    or int(vac["salary_to"]) >= int(self.filter_salary[0])
-                    and int(vac["salary_to"]) <= int(self.filter_salary[-1])
+                    int(vac.salary_from) >= int(self.filter_salary[0])
+                    and int(vac.salary_from) <= int(self.filter_salary[-1])
+                    or int(vac.salary_to) >= int(self.filter_salary[0])
+                    and int(vac.salary_to) <= int(self.filter_salary[-1])
                 ):
                     filtered_vacancies_list.append(vac)
             except ValueError:
@@ -59,7 +59,7 @@ class VacanciesFilterSort:
         """
         Функция для сортировки вакансий по зарплате (по убыванию)
         """
-        vacancies_list.sort(key=lambda x: x["salary_from"], reverse=True)
+        vacancies_list.sort(key=lambda x: x.salary_from, reverse=True)
         return vacancies_list
 
     def get_top_vacancies(self, vacancies_list: List) -> str:

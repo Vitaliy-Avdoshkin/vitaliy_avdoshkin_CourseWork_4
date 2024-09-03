@@ -1,6 +1,7 @@
 from src.file_worker import JSONSaver
 from src.hh_api import HeadHunterAPI
 from src.utils import VacanciesFilterSort
+from src.vacancy import Vacancy
 
 
 # Функция для взаимодействия с пользователем
@@ -31,7 +32,10 @@ def user_interaction():
         print(' ')
 
         read_vacs_from_json = json_saver.read_file()
+        #print(read_vacs_from_json)
 
+        # for i in read_vacs_from_json:
+        #     print(i['salary_from'])
 
         # Создание экземпляра класса фильтрации и сортировки вакансий
         filtered_obj = VacanciesFilterSort(filter_word, filter_city, filter_salary, top_n)
@@ -47,6 +51,7 @@ def user_interaction():
         print(f'По заданным параметрам найдено вакансий: {len(sorted_by_salary)}')
         print(f'Статистика поиска:\n{len(filtered_by_description)} вакансий по описанию,\n{len(filtered_by_city)} вакансий по местоположению,\n{len(filtered_by_salary)} вакансий по зарплате\n')
         print(f'\n{top_vacancies}\n')
+
         break
 
 
