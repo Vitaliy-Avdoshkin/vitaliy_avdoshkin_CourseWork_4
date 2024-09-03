@@ -1,11 +1,11 @@
 from src.file_worker import JSONSaver
 from src.hh_api import HeadHunterAPI
 from src.utils import VacanciesFilterSort
-from src.vacancy import Vacancy
+
 
 
 # Функция для взаимодействия с пользователем
-def user_interaction():
+def main():
     # Создание экземпляра класса для работы с API сайтов с вакансиями
     hh_api = HeadHunterAPI()
     search_query = input('Введите поисковый запрос: ')
@@ -59,4 +59,4 @@ def user_interaction():
 
 
 if __name__ == '__main__':
-    user_interaction()
+    main()

@@ -12,7 +12,8 @@ def test_vacancy_init(vacancy_1):
 
     assert (
         str(vacancy_1)
-        == "Вакансия: Junior Mems Creator, Зарплата: от 0 до 1000, Описание: Создание мемов, Город: Смоленск, Ссылка: https://hh.ru/vacancy/105338852"
+        == "Вакансия: Junior Mems Creator, Зарплата: от 0 до 1000, Описание: Создание мемов, Город: Смоленск, "
+        "Ссылка: https://hh.ru/vacancy/105338852"
     )
 
 

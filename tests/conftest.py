@@ -23,7 +23,9 @@ def serialized_for_json():
             "name": "Junior Python developer",
             "link": "https://hh.ru/vacancy/105338726",
             "salary": 0,
-            "description": "Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации тестирования блокчейн и инфраструктурных проектов. Разработка сценариев, имитирующих взаимодействие пользователя с веб-приложением, включая...",
+            "description": "Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации тестирования "
+            "блокчейн и инфраструктурных проектов. Разработка сценариев, имитирующих взаимодействие "
+            "пользователя с веб-приложением, включая...",
             "area": "Могилев",
         }
     ]
@@ -35,7 +37,9 @@ def serialized_for_user():
         "Вакансия: Junior Python developer"
         "Ссылка: https://hh.ru/vacancy/105338726)"
         "Зарплата от: 0"
-        "Описание: Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации тестирования блокчейн и инфраструктурных проектов. Разработка сценариев, имитирующих взаимодействие пользователя с веб-приложением, включая..."
+        "Описание: Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации тестирования блокчейн "
+        "и инфраструктурных проектов. Разработка сценариев, имитирующих взаимодействие пользователя с "
+        "веб-приложением, включая..."
         "Город: Могилев"
     )
 
@@ -48,7 +52,9 @@ def hh_vacs_list():
             "alternate_url": "https://hh.ru/vacancy/105338726",
             "salary": 0,
             "snippet": {
-                "responsibility": "Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации тестирования блокчейн и инфраструктурных проектов. Разработка сценариев, имитирующих взаимодействие пользователя с веб-приложением, включая..."
+                "responsibility": "Создание скриптов на <highlighttext>Python</highlighttext> для автоматизации "
+                "тестирования блокчейн и инфраструктурных проектов. Разработка сценариев, "
+                "имитирующих взаимодействие пользователя с веб-приложением, включая..."
             },
             "area": {"name": "Могилев"},
         }
@@ -81,26 +87,6 @@ def vacancy_2():
     }
 
 
-# @pytest.fixture
-# def vac_list_1(vacancy_1, vacancy_2):
-#     return f'[{Vacancy(vacancy_1)}, {Vacancy(vacancy_2)}]'
 @pytest.fixture
-def vac_list_1():
-    return [
-    {
-        "name": "Junior Mems Creator",
-        "salary_from": 0,
-        "salary_to": 1000,
-        "description": "Создание мемов",
-        "city": "Смоленск",
-        "link": "https://hh.ru/vacancy/105338852",
-    },
-    {
-        "name": "Python Guru",
-        "salary_from": 12000,
-        "salary_to": 20000,
-        "description": "Поиск Python профи",
-        "city": "Москва",
-        "link": "https://hh.ru/vacancy/105338852",
-    },
-]
+def vac_list_1(vacancy_1, vacancy_2):
+    return [Vacancy(vacancy_1), Vacancy(vacancy_2)]

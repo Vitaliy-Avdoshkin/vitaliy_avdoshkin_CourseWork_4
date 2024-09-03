@@ -88,22 +88,27 @@ class Vacancy:
         return self.salary_from == other.salary_from
 
 
-# if __name__ == "__main__":
-#     vacancy1 = {
-#         "name": "повар",
-#         "alternate_url": "ссылка",
-#         "salary": {"from": 10000, "to": 15000},
-#         "snippet": {"responsibility": "требуется повар"},
-#         "area": {"name": "Екатеринбург"},
-#     }
-#     vacancy2 = {
-#         "name": "таксист",
-#         "alternate_url": None,
-#         "salary": {"from": 5600, "to": 281000},
-#         "snippet": None,
-#         "area": {"name": "Екатеринбург"},
-#     }
-#     x = Vacancy(vacancy1)
-#     print(x)
-#     y = Vacancy(vacancy2)
-#     print(y)
+if __name__ == "__main__":
+    vacancy1 = {
+        "name": "Junior Mems Creator",
+        "alternate_url": "https://hh.ru/vacancy/105338852",
+        "salary": {"from": 0, "to": 1000},
+        "snippet": {"responsibility": "Создание мемов"},
+        "area": {
+            "name": "Смоленск",
+        },
+    }
+
+    vacancy2 = {
+        "name": "Python Guru",
+        "alternate_url": "https://hh.ru/vacancy/105338852",
+        "salary": {"from": 12000, "to": 20000},
+        "snippet": {"responsibility": "Поиск Python профи"},
+        "area": {
+            "name": "Москва",
+        },
+    }
+    x = Vacancy(vacancy1)
+    print(x)
+    y = Vacancy(vacancy2)
+    print(y)
