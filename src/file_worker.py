@@ -64,10 +64,13 @@ class JSONSaver(BaseFileReader):
             vacs_list.append(
                 {
                     "name": Vacancy(i).name,
-                    "salary": {"from": Vacancy(i).salary_from, "to": Vacancy(i).salary_to},
-                    #"salary_to": {"to": Vacancy(i).salary_to},
+                    "salary": {
+                        "from": Vacancy(i).salary_from,
+                        "to": Vacancy(i).salary_to,
+                    },
+                    # "salary_to": {"to": Vacancy(i).salary_to},
                     "snippet": {"responsibility": Vacancy(i).description},
-                    "area":  {'name': Vacancy(i).city},
+                    "area": {"name": Vacancy(i).city},
                     "alternate_url": Vacancy(i).link,
                 }
             )

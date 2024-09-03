@@ -1,6 +1,3 @@
-from src.hh_api import hh_vacancies
-
-
 class Vacancy:
     """
     Класс для формирования вакансии
