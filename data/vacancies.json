@@ -1,0 +1,2802 @@
+[
+    {
+        "name": "Менеджер по продажам (без поиска клиентов)",
+        "salary": {
+            "from": 120000,
+            "to": 170000
+        },
+        "snippet": {
+            "responsibility": "Обрабатывать входящие обращения клиентов по телефону и в мессенджерах, а также личные встречи в шоу-руме. Заниматься продажами квадроциклов, лодок..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/83795489"
+    },
+    {
+        "name": "Стажер-переводчик английского языка",
+        "salary": {
+            "from": 80000,
+            "to": 90000
+        },
+        "snippet": {
+            "responsibility": "Письменный (технический) перевод с английского на русский язык. Административные функции."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106651370"
+    },
+    {
+        "name": "Python Backend Developer",
+        "salary": {
+            "from": 250000,
+            "to": 400000
+        },
+        "snippet": {
+            "responsibility": "Разработка и поддержка серверной части для WhatsApp ботов на Python. Интеграция с внешними API и базами данных (PostgreSQL). "
+        },
+        "area": {
+            "name": "Астана"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106648568"
+    },
+    {
+        "name": "Junior Java developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка компонентов продукта. Покрытие кода <highlighttext>тестами</highlighttext>. Рефакторинг существующего кода."
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106636887"
+    },
+    {
+        "name": "QA engineer",
+        "salary": {
+            "from": 120000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнять регрессионное тестирование. Писать и поддерживать тестовую документацию (чек-листы, <highlighttext>тест</highlighttext>-планы и сценарии тестирования) и внутреннюю документацию на продукт. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106669885"
+    },
+    {
+        "name": "Ассистент психолога",
+        "salary": {
+            "from": 70000,
+            "to": 80000
+        },
+        "snippet": {
+            "responsibility": "Организация переподготовки и повышения квалификации сотрудников. Помощь в подготовке и проведении занятий, тестирований, тренингов. Проверка выполнения домашних заданий и <highlighttext>тестов</highlighttext>. "
+        },
+        "area": {
+            "name": "Ростов-на-Дону"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106589165"
+    },
+    {
+        "name": "Личный помощник актрисы",
+        "salary": {
+            "from": 20000,
+            "to": 35000
+        },
+        "snippet": {
+            "responsibility": "Принимать входящие заявки и продавать шоу. — Коммуницировать с клиентом. — Взаимодействовать с базой клиентов и отправлять коммерческие предложения."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106637185"
+    },
+    {
+        "name": "Frontend Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проектирование доработок в существующих и запускаемых с нуля продуктах. Участие в проектирование и разработке архитектуры приложений. Участие в code-review..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106657961"
+    },
+    {
+        "name": "Администратор торгового зала (Hyundai Auto Almaty)",
+        "salary": {
+            "from": 320000,
+            "to": 320000
+        },
+        "snippet": {
+            "responsibility": "Встреча посетителей Автоцентра. Организация приема посетителей. Ведение книги посетителей/ <highlighttext>тест</highlighttext> драйвов. Ежедневный/ежемесячный отчет по посетителям. Консультирует клиентов в отсутствие..."
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106617215"
+    },
+    {
+        "name": "Junior разработчик Front-end",
+        "salary": {
+            "from": 40000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка компонентов на React/Material-UI. Разработка SPA приложения на React/TypeScript. Взаимодействие с backend. Написание unit-<highlighttext>тестов</highlighttext>."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106622780"
+    },
+    {
+        "name": "Middle Java Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка новой функциональности в соответствии с требованиями. Оптимизация производительности системы, анализ ошибок и сбоев, рефакторинг. Разработка автоматизированных и unit <highlighttext>тестов</highlighttext>..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/88474606"
+    },
+    {
+        "name": "Frontend-разработчик (React, TypeScript)",
+        "salary": {
+            "from": 180000,
+            "to": 260000
+        },
+        "snippet": {
+            "responsibility": "Программировать много бизнес-логики на TypeScript и писать <highlighttext>тесты</highlighttext>. Разрабатывать React-компоненты для внутренней библиотеки. Составлять интерфейсы с использованием библиотеки..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106397930"
+    },
+    {
+        "name": "Front-End React JS разработчик",
+        "salary": {
+            "from": 1000,
+            "to": 1800
+        },
+        "snippet": {
+            "responsibility": "Разработка компонентов и приложения на React JS. 2. Написание автоматизированных <highlighttext>тестов</highlighttext>. 3. Совместная работа с дизайнером и back-end разработчиками."
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105274370"
+    },
+    {
+        "name": "Стажер бизнес аналитик /Junior Бизнес-аналитик",
+        "salary": {
+            "from": 150000,
+            "to": 400000
+        },
+        "snippet": {
+            "responsibility": "Собирает в целое разные точки зрения, исследует боли и потребности пользователей. Решает, как внедрить новые идеи, структурирует задачи для команды..."
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106032154"
+    },
+    {
+        "name": "Java-разработчик (Junior / Intern)",
+        "salary": {
+            "from": 0,
+            "to": 60000
+        },
+        "snippet": {
+            "responsibility": "Корпоративный портал с материалами для изучения любого нового стека и повышения уровня по своей специальности и не только. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106398512"
+    },
+    {
+        "name": "Junior Python Developer",
+        "salary": {
+            "from": 70000,
+            "to": 100000
+        },
+        "snippet": {
+            "responsibility": "Регресс-тестирование (примерно 4 раза в год). 2. Автоматизация <highlighttext>тестов</highlighttext>. Есть тестировщики, которые пишут <highlighttext>тест</highlighttext>-кейсы и команда, которая делает..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106080127"
+    },
+    {
+        "name": "Тестировщик ПО (Junior QA)",
+        "salary": {
+            "from": 0,
+            "to": 500
+        },
+        "snippet": {
+            "responsibility": "<highlighttext>Тест</highlighttext> менеджмент систем (Test Rail или аналоги)."
+        },
+        "area": {
+            "name": "Минск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106548625"
+    },
+    {
+        "name": "Frontend-разработчик (React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проектирование Front-end API для взаимодействия с сервисами Экосистемы. Написание <highlighttext>тестов</highlighttext> к разрабатываемому коду. Участие в проектировании и реализации архитектуры. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106548651"
+    },
+    {
+        "name": "Бизнес-тренер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка курсов системы дистанционного обучения (СДО). Подготовка <highlighttext>тестов</highlighttext> и проведение тестирования сотрудников. Разработка и проведение навыковых тренингов для руководителей. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/81737388"
+    },
+    {
+        "name": "Project Manager (продуктовая команда Лояльности), удалённо из РФ",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Вести самостоятельно delivery по небольшим проектам. Проверять <highlighttext>тест</highlighttext>-кейсы и проводить внешнее тестирование фичей. Организовывать раскатки AB-<highlighttext>тестов</highlighttext> и нового..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106384993"
+    },
+    {
+        "name": "Личный куратор",
+        "salary": {
+            "from": 70000,
+            "to": 150000
+        },
+        "snippet": {
+            "responsibility": "Готовим на казахском языке по: Математика. Физика. ⁃ Участие в других будущих проектах компании. - Отличные организационные навыки для контроля расписания занятий..."
+        },
+        "area": {
+            "name": "Астана"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106399532"
+    },
+    {
+        "name": "Тестировщик / QA-engineer",
+        "salary": {
+            "from": 114000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Оценка качества работы системы на предмет соответствия пользовательским ожиданиям. Формирование <highlighttext>тест</highlighttext>-кейсов и баг-репортов. Постановка задач разработчикам в трекере..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106605030"
+    },
+    {
+        "name": "Администратор офиса",
+        "salary": {
+            "from": 5000000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составлять расписание обучения для учеников и преподавателей. Продавать ученикам курсы обучения вокалу. Поддерживать в школе позитивную атмосферу."
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105377714"
+    },
+    {
+        "name": "Frontend-разработчик",
+        "salary": {
+            "from": 120000,
+            "to": 250000
+        },
+        "snippet": {
+            "responsibility": "Разработка Frontend приложения под руководством старшего разработчика. - Улучшение архитектуры приложения."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106660433"
+    },
+    {
+        "name": "Middle QA engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнять ручное тестирование web-сайта, мобильных приложения (iOS, Android), админок и бекенда наших продуктов. Разрабатывать и поддерживать сценарии тестирования команды. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106656652"
+    },
+    {
+        "name": "Бухгалтер-стажер",
+        "salary": {
+            "from": 20000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разнесение операций по банковскому счету и кассе в программе 1С. Внесение первичной документации и номенклатуры в 1С с..."
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105456787"
+    },
+    {
+        "name": "Ассистент тестировщика",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проведение функционального и регрессионного тестирования. Написание <highlighttext>тест</highlighttext>-кейсов."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106650693"
+    },
+    {
+        "name": "Python Backend разработчик",
+        "salary": {
+            "from": 120000,
+            "to": 150000
+        },
+        "snippet": {
+            "responsibility": "Наш главный продукт – Videoseed. Платформа, существующая с 2013 года, для продвижения контента на разных площадках, позволяющая зарабатывать их владельцам на..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106634983"
+    },
+    {
+        "name": "Middle Frontend-разработчик (Vue)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Написанием и поддержкой composabl'ов, которые выполняют логику компонентов. Покрывать свой код Unit-<highlighttext>тестами</highlighttext> (jest / testutils). Проводить Code Review с..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106665540"
+    },
+    {
+        "name": "Frontend-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 420000
+        },
+        "snippet": {
+            "responsibility": "Реализация функциональных требований, предъявленных к интеграции и рабочим местам. Актуализация и ведение компонентной базы элементов пользовательских форм. Проработка и реализация..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106461154"
+    },
+    {
+        "name": "Специалист по тестированию ПО (middle)/QA",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Создавать и актуализировать тестовую документацию: дизайн <highlighttext>тест</highlighttext>-кейсов, составление чек-листов (в том числе подготовка <highlighttext>тест</highlighttext>-кейсов для автоматизаторов). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106657360"
+    },
+    {
+        "name": "QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проводить функциональное, регрессионное и интеграционное тестирование. Разрабатывать и писать тестовую документацию (<highlighttext>тест</highlighttext>-кейсы, чек-листы, методики тестирования). Искать, мониторить и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105367109"
+    },
+    {
+        "name": "QA Инженер",
+        "salary": {
+            "from": 0,
+            "to": 180000
+        },
+        "snippet": {
+            "responsibility": "Оформление тестовой документации (матрицы регресса, чек листы, <highlighttext>тест</highlighttext> кейсы), поддержание в актуальном состоянии. Тестирование API запросами, глубокое тестирование с анализом..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106390170"
+    },
+    {
+        "name": "QA Engineer / Тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Написание авто-<highlighttext>тестов</highlighttext>. Тестирование API. Документирование всех тестовых активностей. Создание стратегии и планирование тестирования. Составление и поддержка <highlighttext>тест</highlighttext>-кейсов, <highlighttext>тест</highlighttext>..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106006142"
+    },
+    {
+        "name": "Middle Frontend разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в развитии архитектуры и дизайне решений. Написание модульных <highlighttext>тестов</highlighttext>. Участие в разработке проекта \"с нуля\" (свобода в выборе решений..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106618950"
+    },
+    {
+        "name": "Middle Frontend Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Создание интуитивной UI библиотеки React компонентов которой хотелось бы пользоваться. Написание и поддержка автоматизированных <highlighttext>тестов</highlighttext>. Рефакторинг и оптимизация существующего кода."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105220387"
+    },
+    {
+        "name": "Manual QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в планировании и организации тестирования. Проведение функционального, регрессионного, интеграционного тестирования мобильных приложений и веб-сайтов. Тестирование серверного API. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106437502"
+    },
+    {
+        "name": "Тестировщик (проект ВВ Обед.ру)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Покрывать автотестами существующие сценарии: <highlighttext>тесты</highlighttext> API, клиентские <highlighttext>тесты</highlighttext> Android/iOS/Front. Формировать <highlighttext>тест</highlighttext>-план на покрытие нового проекта в рамках..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105971752"
+    },
+    {
+        "name": "Frontend Developer React",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Улучшать и развивать собственную библиотеку компонентов. Писать e2e и юнит-<highlighttext>тесты</highlighttext>. Ревьюить и менторить коллег разработчиков. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106643342"
+    },
+    {
+        "name": "Заместитель фаундера по инвестициям (Investor Relations)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Полная автоматизация через АМО CRM: IP-телефония, email, мессенджеры. A) Пройдите экспресс психологический <highlighttext>тест</highlighttext> на совместимость с командой: Установите приложение..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106620971"
+    },
+    {
+        "name": "Frontend developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка микрофронтов платформы. Разработка и поддержка фронтенд компонентов приложения. Написание различных <highlighttext>тестов</highlighttext> (unit, end-to-end). Участие в развитии платформы..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106652632"
+    },
+    {
+        "name": "Product Manager",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "...<highlighttext>тесты</highlighttext> пейволов и онбордингов. - Прорабатывать и реализовывать новые фичи в продуктах. - Строить отчетность в Amplitude. - Анализировать результаты A/B <highlighttext>тестов</highlighttext>. - "
+        },
+        "area": {
+            "name": "США"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106673299"
+    },
+    {
+        "name": "Тестировщик ПО",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнение необходимых видов тестирования на проекте. Создание и ведение тестовой документации. Выявление дефектов и занесение их в баг-трекинговую систему. "
+        },
+        "area": {
+            "name": "Минск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106547296"
+    },
+    {
+        "name": "Специалист по тестированию",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Написание и актуализация тестовых сценариев для тестирования в соответствии с планом тестирования и реализуемым функционалом. Выполнение функционального, регрессионного и нагрузоного..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106621092"
+    },
+    {
+        "name": "Junior Frontend-разработчик",
+        "salary": {
+            "from": 50000,
+            "to": 90000
+        },
+        "snippet": {
+            "responsibility": "Участвовать в разработке интересного проекта на VueJS. Верстать по макетам интерфейсы (адаптивная и кроссбраузерная вёрстка). Взаимодействовать с командой разработки. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105484126"
+    },
+    {
+        "name": "QA-инженер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "...<highlighttext>тест</highlighttext>-кейсов под новую функциональность. Взаимодействовать с командой разработки продукта. Участвовать в командном ревью <highlighttext>тест</highlighttext>-кейсов. Предлагать варианты оптимизации <highlighttext>тестов</highlighttext>..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106598777"
+    },
+    {
+        "name": "Стажер менеджера по продажам в автосалон BYD Yashnobod",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Консультирование клиентов по основным характеристикам автомобилей BYD. - Участие в организации <highlighttext>тест</highlighttext>-драйвов и мероприятий. - Сбор и анализ информации о потребностях..."
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106595994"
+    },
+    {
+        "name": "Frontend Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в разработке новых проектов и поддержка существующих, в т.ч. pwa-приложений. Разработка новых программных модулей и доработка существующих. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106566109"
+    },
+    {
+        "name": "Frontend Developer Vue",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Мониторинг и внесение корректировок в существующие проекты. - Проведение функциональных <highlighttext>тестов</highlighttext>, поиск и устранение ошибок в скриптах. - Разработка новых компонентов на..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106658206"
+    },
+    {
+        "name": "Специалист чат-поддержки (удаленно)",
+        "salary": {
+            "from": 53800,
+            "to": 70500
+        },
+        "snippet": {
+            "responsibility": "Помогать клиентам в чатах и email-ах по услугам компании (интернет, домашнее телевидение, домофония и видеонаблюдение). Сохранять и удерживать клиентов..."
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/102108838"
+    },
+    {
+        "name": "UX/UI дизайнер",
+        "salary": {
+            "from": 0,
+            "to": 110000
+        },
+        "snippet": {
+            "responsibility": "Развивать интерфейс сайта, мобильного приложения и других проектов Компании. Инициировать, создавать и проводить UX-<highlighttext>тесты</highlighttext>, опросы (исследовать, выявлять потребности пользователей). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106653904"
+    },
+    {
+        "name": "Специалист по тестированию (Junior)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Написание и прогон <highlighttext>тест</highlighttext>-кейсов, назначение и контроль исполнения дефектов, составление плана и отчетности по тестированию. Создание и поддержка <highlighttext>тест</highlighttext>..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106408513"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Моделирование ситуаций, приводящих к ошибкам. Написание и сопровождение тестовой документации (чек-листы, <highlighttext>тест</highlighttext>-кейсы, планы тестирования, баг-репорты). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106656400"
+    },
+    {
+        "name": "Бухгалтер без опыта работы",
+        "salary": {
+            "from": 80500,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разбор, архивирование первичных документов. Работа с электронным документооборотом. Работа со счетами 19, 26,44, 60,62. Оприходование товаров и услуг. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106470572"
+    },
+    {
+        "name": "Личный бизнес-ассистент: умничка с боевым характером и желанием жить, а не выживать",
+        "salary": {
+            "from": 70000,
+            "to": 150000
+        },
+        "snippet": {
+            "responsibility": "От установления первичного контакта, до выхода на общение на равных, доведение до практического результата - принятие нужных нам решений, заключение договоров..."
+        },
+        "area": {
+            "name": "Краснодар"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105496645"
+    },
+    {
+        "name": "Программист-разработчик",
+        "salary": {
+            "from": 50000,
+            "to": 150000
+        },
+        "snippet": {
+            "responsibility": "Разработка программ на backend Python."
+        },
+        "area": {
+            "name": "Уфа"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106648824"
+    },
+    {
+        "name": "Личный ассистент",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составлять ежедневные отчеты (обучим). Консультировать людей касательно поступления в магистратуру(есть пошаговая инструкция). Выполнение рабочих и личных поручений: регистрация учеников..."
+        },
+        "area": {
+            "name": "Караганда"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106414828"
+    },
+    {
+        "name": "Разработчик тестовых заданий",
+        "salary": {
+            "from": 7000,
+            "to": 15000
+        },
+        "snippet": {
+            "responsibility": "Написание тестовых заданий для школьников по предметам(каждое тестовое задание состоит из 20 вопросов, одиночный выбор ответа)​​​. Подготовка работы над..."
+        },
+        "area": {
+            "name": "Астана"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105514887"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составления <highlighttext>тест</highlighttext>-кейсов (Test IT). Участие в процессе автоматизации: автоматизация <highlighttext>тест</highlighttext>-кейсов и оценка результатов запуска авто-<highlighttext>тестов</highlighttext>, их актуализация..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106442852"
+    },
+    {
+        "name": "SMM-менеджер",
+        "salary": {
+            "from": 45000,
+            "to": 60000
+        },
+        "snippet": {
+            "responsibility": "Чаще всего это делают с помощью интерактивного контента: конкурсов, опросов, <highlighttext>тестов</highlighttext>, челленджей.  Общаться с подписчиками — важная обязанность SMM-специалиста. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106652349"
+    },
+    {
+        "name": "Frontend-разработчик (React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Работать в кросс-функциональной команде. Участвовать в ревью кода. Влиять на развитие продукта и процессы в команде. Обеспечивать высокое качество..."
+        },
+        "area": {
+            "name": "Омск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106578775"
+    },
+    {
+        "name": "Frontend Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка и поддержка продукта. Оптимизация работы приложения. Участие в командной разработке. Внедрение новых технологий и практик. Участие в обсуждениях по..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106672420"
+    },
+    {
+        "name": "Разработчик Python в IT-компанию",
+        "salary": {
+            "from": 25000,
+            "to": 50000
+        },
+        "snippet": {
+            "responsibility": "Fast API. Любишь сдаваться, столкнувшись с пределом своей компетенции. Выполняешь работу не в срок и с плохим качеством."
+        },
+        "area": {
+            "name": "Казань"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106594031"
+    },
+    {
+        "name": "Фронтенд разработчик (Typescript+React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Логики оркестрации в кросс-функциональной команде. Написание различных <highlighttext>тестов</highlighttext> (unit, end-to-end). Участие в принятии технических решений и внедрении..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106377059"
+    },
+    {
+        "name": "QA инженер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка <highlighttext>тест</highlighttext>-планов, <highlighttext>тест</highlighttext>-кейсов, тестовых сценариев на основе функциональных требований, use-cases. Проведение различных видов тестирования: функциональное, регрессионное, UI..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106552960"
+    },
+    {
+        "name": "Frontend разработчик (React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проектированием и разработкой новых бизнес-фич. Переносом проекта на микросервисную архитектуру. Рефакторингом и оптимизацией текущего кода. Реферальная программа для сотрудников."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106353373"
+    },
+    {
+        "name": "Разработчик Flutter",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Контроллер наведения антенной системы. Программно-аппаратный модуль, авиационного исполнения, отвечающий за управление системой наведения спутниковой антенны. Спутниковая антенная система, авиационного..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106667997"
+    },
+    {
+        "name": "Java-разработчик (mid/sen+)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка микросервисов на Java 11+, SpringFramework. Проектирование интерфейсов взаимодействия с другими системами. Работа в тесном сотрудничестве со специалистами фронтенд..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/100072780"
+    },
+    {
+        "name": "Тестировщик (QA)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Тестирование пользовательского интерфейса. Управление тестированием. Кросс платформенное/браузерное тестирование. Сбор и оценка необходимой информации для тестирования. Описание <highlighttext>тест</highlighttext>-кейсов. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106562736"
+    },
+    {
+        "name": "Junior Python developer",
+        "salary": {
+            "from": 0,
+            "to": 800
+        },
+        "snippet": {
+            "responsibility": "Подготовка отчетов о результатах тестирования, выявленных ошибках и предложениях по улучшению. Ведение документации по автоматизированным <highlighttext>тестам</highlighttext> и их результатам. "
+        },
+        "area": {
+            "name": "Минск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106598950"
+    },
+    {
+        "name": "Ағылшын тілі пәні мұғалімі / Учитель Английского языка",
+        "salary": {
+            "from": 200000,
+            "to": 300000
+        },
+        "snippet": {
+            "responsibility": "Ағылшын тілі пәнінен <highlighttext>тест</highlighttext> құрастыру. Жас, амбицияға толы, креативті, белсенді команда."
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106156580"
+    },
+    {
+        "name": "Cтажер-разработчик C# (back-end)",
+        "salary": {
+            "from": 35000,
+            "to": 35000
+        },
+        "snippet": {
+            "responsibility": "Работу над настоящим продуктом в кросс-функциональной команде. Сделать первый полезный пулл-реквест."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106618600"
+    },
+    {
+        "name": "Python разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка парсеров на Python - проведение необходимых исследований и написание кода. Поддержка и актуализация действующих парсеров и <highlighttext>тестов</highlighttext> к ним."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106455568"
+    },
+    {
+        "name": "Python Developer (Remote)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106463293"
+    },
+    {
+        "name": "Frontend-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 287000
+        },
+        "snippet": {
+            "responsibility": "Мы находимся в активном поиске талантов на должность системного аналитика. Обязанности: Разработка кода и <highlighttext>тестов</highlighttext>. Тех. документирование реализованного функционала. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106012473"
+    },
+    {
+        "name": "Тестировщик-стажер",
+        "salary": {
+            "from": 45000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проведение ручного, функционального тестирования мобильных приложений. Написание <highlighttext>тест</highlighttext>-кейсов на основе требований. Взаимодействие с командами разработки и аналитики по вопросам..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105691227"
+    },
+    {
+        "name": "QA-engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составление тестовой документации: <highlighttext>тест</highlighttext>-кейсы, <highlighttext>тест</highlighttext>-планы, чек-листы. Анализ технической документации на предмет соответствия стандартам. Разработка матрицы трассировки требований. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106631397"
+    },
+    {
+        "name": "Комплектовщик-упаковщик",
+        "salary": {
+            "from": 68966,
+            "to": 74713
+        },
+        "snippet": {
+            "responsibility": "Получением готовой продукции (системных блоков, моноблоков, ноутбуков) и документов из отдела тестирования. Нанесением маркировки. Упаковкой готовой продукции, прошедшей <highlighttext>тест</highlighttext>."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/96241048"
+    },
+    {
+        "name": "Middle Frontend разработчик",
+        "salary": {
+            "from": 300000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка проекта с нуля."
+        },
+        "area": {
+            "name": "Астана"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106610320"
+    },
+    {
+        "name": "Ассистент известного фэшн бренда",
+        "salary": {
+            "from": 150000,
+            "to": 300000
+        },
+        "snippet": {
+            "responsibility": "Продажи. Работа над коллекциями. Участие в организации фэшн ивентов. PR. Создание информационных поводов."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106314999"
+    },
+    {
+        "name": "Монтажер видео удалённо",
+        "salary": {
+            "from": 35000,
+            "to": 80000
+        },
+        "snippet": {
+            "responsibility": "Монтаж рекламных видео из наших исходников с использованием спецэффктов, с наложением титров и музыки без авторских прав, чаще всего для..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106457189"
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": {
+            "from": 50000,
+            "to": 75000
+        },
+        "snippet": {
+            "responsibility": "Встреча покупателей. Продажа компьютерной техники для геймеров. Поддержание порядка в демозоне. Изучение ассортиментной матрицы товаров (компьютерная техника, периферия и фурнитура). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106019489"
+    },
+    {
+        "name": "Python Back-end Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участвовать в анализе, проектировании и оценке технических. Решений вместе с командой. Писать unit и функциональные <highlighttext>тесты</highlighttext>. Работать с SQL и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106470098"
+    },
+    {
+        "name": "Frontend-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проектирование, разработка и поддержка продуктов компании. Написание <highlighttext>тестов</highlighttext>. Проведение код-ревью. Оценка трудоемкости задач. Взаимодействие с другими командами: backend-разработчиками..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105135924"
+    },
+    {
+        "name": "Кондитер",
+        "salary": {
+            "from": 130000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Заготовка п/ф (бисквиты, муссы, различные кремы, работа с заварным <highlighttext>тестом</highlighttext>). Сборка десертов. Соблюдение санитарных норм. Соблюдение чистоты и порядка..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106578033"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проведение тестирования frontend и backend (функциональное, исследовательское, регрессионное). Настройка оповещений, тестирование нагрузки и производительности. Создание автотестов в микросервисной архитектуре. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106410304"
+    },
+    {
+        "name": "Middle QA engineer",
+        "salary": {
+            "from": 120000,
+            "to": 180000
+        },
+        "snippet": {
+            "responsibility": "Разработка тестовых сценариев, <highlighttext>тест</highlighttext>-кейсов, <highlighttext>тест</highlighttext>-планов, чек-листов, поддержание их в актуальном состоянии. Анализ результатов тестирования и предоставление отчетов..."
+        },
+        "area": {
+            "name": "Таганрог"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106580709"
+    },
+    {
+        "name": "Помощник системного администратора",
+        "salary": {
+            "from": 150000,
+            "to": 200000
+        },
+        "snippet": {
+            "responsibility": "Собирает и обрабатывает тестовые данные, проводит <highlighttext>тесты</highlighttext> программы для проверки точности и полноты обработки, а также исправляет ошибки в логике..."
+        },
+        "area": {
+            "name": "Актобе"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106604059"
+    },
+    {
+        "name": "Разработчик Python",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Создание и поддержка unit и integration <highlighttext>тестов</highlighttext> с использованием pytest. Работа с SQL и построение грамотных SQL запросов. "
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106396609"
+    },
+    {
+        "name": "Тестировщик ПО",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Поиск и фиксация багов в работе ПО. Составление тестовой документации: <highlighttext>тест</highlighttext>-кейсы, чек-листы, баг-репорты, отчёты о тестировании. "
+        },
+        "area": {
+            "name": "Краснодар"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106621616"
+    },
+    {
+        "name": "Frontend-разработчик (React, TypeScript)",
+        "salary": {
+            "from": 1500,
+            "to": 3000
+        },
+        "snippet": {
+            "responsibility": "Пишете качественный и эффективный код на JS/TS."
+        },
+        "area": {
+            "name": "Челябинск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105380499"
+    },
+    {
+        "name": "Java - разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Вместе с командой участвовать в проработке технических и архитектурных решений. Писать поддерживаемый и расширяемый код с соблюдением Java Code Conventions..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106112713"
+    },
+    {
+        "name": "Администратор в автосалон PORSCHE",
+        "salary": {
+            "from": 70000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Оформление документов, ведение статистики, ведение табеля учета рабочего времени. Запись и оформление документов для <highlighttext>тест</highlighttext>-драйва. Поддержка бизнес-процессов Отдела..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106376375"
+    },
+    {
+        "name": "QA Engineer (web)",
+        "salary": {
+            "from": 160000,
+            "to": 180000
+        },
+        "snippet": {
+            "responsibility": "Функциональным, интеграционным тестированием. Подготовкой тестовой документации. Проведением <highlighttext>тест</highlighttext>-анализа. Регресс-тестированием."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106464578"
+    },
+    {
+        "name": "Frontend-разработчик React",
+        "salary": {
+            "from": 120000,
+            "to": 140000
+        },
+        "snippet": {
+            "responsibility": "Собеседование с руководителем продукта."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106647901"
+    },
+    {
+        "name": "Учитель английского языка в образовательный центр Зияткер",
+        "salary": {
+            "from": 400000,
+            "to": 500000
+        },
+        "snippet": {
+            "responsibility": "Обучение школьников от уровня elementary to upper-intermediate. Подготовка к <highlighttext>тестам</highlighttext>."
+        },
+        "area": {
+            "name": "Шымкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106611133"
+    },
+    {
+        "name": "Java Developer / Разработчик Java",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Актуализация устаревшего кода. ‒ Миграция баз данных. Работа в аккредитованной ИТ - компании."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106629668"
+    },
+    {
+        "name": "Java-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Паркоматика — сервис для управление автопарком и автомобильными платежами. HappyDesk — облачный хелпдеск для компаний и их клиентов. Jinnee — умный ассистент автоматизации..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105930528"
+    },
+    {
+        "name": "QA инженер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составлять и поддерживать тестовую документацию: планы тестирования, чек-листы, <highlighttext>тест</highlighttext>-кейсы. - Поддерживать и писать автотесты на Python. - Локализировать и регистрировать..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106525025"
+    },
+    {
+        "name": "Middle QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в оценке трудозатрат и планировании работ по тестированию. <highlighttext>Тест</highlighttext>-дизайн и его согласование со смежными подразделениями. Проведение работ по..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/104574234"
+    },
+    {
+        "name": "Старший бухгалтер по расчетам с поставщиками и учету ТМЦ",
+        "salary": {
+            "from": 140000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Отражение поступлений товаров и услуг (сч.10,41,20,25,26,44,60,76). Участие в инвентаризации сырья, товаров, готовой..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106470145"
+    },
+    {
+        "name": "Тестировщик / QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "С чем предстоит работать. Набор продуктов для проведения социологических исследований в интернете. Микросервисы /SOA (500+ сервисов). Задачи в Jira..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106204245"
+    },
+    {
+        "name": "Инженер по тестированию (Web)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проводить функциональные, регрессионные, интеграционные тестирования. Разрабатывать, актуализировать тестовые документации (<highlighttext>тест</highlighttext>-кейсы, чек-листы, отчеты). Составлять баг-репорты с локализацией ошибок. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106577114"
+    },
+    {
+        "name": "Testing Engineer (IT Solutions Implementation)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Чем предстоит заниматься: Проведение ручного тестирования: функционального, регрессионного, интеграционного. Написание <highlighttext>тест</highlighttext>-кейсов. Заведение дефектов и проверка их исправления. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106579706"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 150000,
+            "to": 210000
+        },
+        "snippet": {
+            "responsibility": "Писать и рефакторить тестовую документацию, необходимую для проведения тестирования (<highlighttext>тест</highlighttext>-кейсы, чек-листы). Проводить автоматизированное тестирование основного продукта (cypress). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106351676"
+    },
+    {
+        "name": "Frontend-разработчик (команда разработки списка мерчантов)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "обеспечивать покрытие кода юнит <highlighttext>тестами</highlighttext>. - проводить code review коллег и вырабатывать оптимальные решения. - управлять качеством кода, техническими метриками. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106590224"
+    },
+    {
+        "name": "Младший тестировщик / Junior QA",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Искать, находить и фиксировать баги. Создавать и поддерживать тестовую документацию (чек-листы, <highlighttext>тест</highlighttext>-кейсы, отчеты о дефектах). Взаимодействовать с командой..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106648152"
+    },
+    {
+        "name": "QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Знание принципов и техник <highlighttext>тест</highlighttext>-дизайна, составление тестовых сценариев и работать с тестовой документацией, обнаружение, оформление и отслеживание багов, контроль..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106243131"
+    },
+    {
+        "name": "Помощник кондитера",
+        "salary": {
+            "from": 220000,
+            "to": 300000
+        },
+        "snippet": {
+            "responsibility": "Работа с <highlighttext>тестом</highlighttext>, выпечка бисквитов, готовка начинки для пирожков и самсы. Содержание рабочего места в чистоте."
+        },
+        "area": {
+            "name": "Астана"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106528773"
+    },
+    {
+        "name": "Java Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка и проведение модульного тестирования (UNIT <highlighttext>тесты</highlighttext>). Участие в совещаниях отдела по вопросам развития и эксплуатации платформы IZI. "
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106615344"
+    },
+    {
+        "name": "Корректор",
+        "salary": {
+            "from": 55000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Вычиткой учебных материалов (статьи, презентации, <highlighttext>тесты</highlighttext> и т.п.), текстов для сайта, рассылок. Устранением грамматических и синтаксических ошибок, опечаток. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105898738"
+    },
+    {
+        "name": "QA Engineer (Auto + Functional)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Анализ, обсуждение и верификация новых требований совместно с командой. Подготовка тестовой модели. Проведение функционального, интеграционного и регрессионного тестирования. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106573537"
+    },
+    {
+        "name": "UI/UX дизайнер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в формировании пользовательского опыта, включая проведение юзабилити-<highlighttext>тестов</highlighttext> и анализ пользовательских сценариев. Сотрудничество с разработчиками, продакт-менеджерами и другими..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106666447"
+    },
+    {
+        "name": "Начинающий Java-программист",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в разработке серверной части различных сервисов. Покрытие написанных сервисов <highlighttext>тестами</highlighttext>. Согласование реализуемых методов и подходов с командой разработчиков клиентов. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106630916"
+    },
+    {
+        "name": "QA engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнение функционального, регрессионного, интеграционного, кроссбраузерного тестирования. Тестирование API. Написание <highlighttext>тест</highlighttext>-кейсов и локализация дефектов. Работа с инструментами управления тестированием и..."
+        },
+        "area": {
+            "name": "Сербия"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106470385"
+    },
+    {
+        "name": "QA инженер (стажер)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Брест"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106666865"
+    },
+    {
+        "name": "QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Написание технической документации, сопутствующие тестированию (например, <highlighttext>тест</highlighttext>-планы, <highlighttext>тест</highlighttext>-кейсы и т.д.). Коммуникация с аналитиками и разработчиками. "
+        },
+        "area": {
+            "name": "Краснодар"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106659896"
+    },
+    {
+        "name": "Программист Java",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Самостоятельно разрабатывать код и <highlighttext>тесты</highlighttext>. Участвовать в оценке и декомпозиции задач. Проводить ревью кода в команде. Подключаться к решению проблем..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106388466"
+    },
+    {
+        "name": "QA engineer (manual)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка и обновление тестовой документации: чек-листы и <highlighttext>тест</highlighttext>-кейсы. Составление отчетов о выявленных дефектах. Мониторинг и управление жизненным циклом..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106598011"
+    },
+    {
+        "name": "Инженер по тестированию",
+        "salary": {
+            "from": 0,
+            "to": 115000
+        },
+        "snippet": {
+            "responsibility": "Оформлять баг-репорты, составлять <highlighttext>тест</highlighttext>-кейсы. - Тестирование десктоп приложения, web приложения, мобильного приложения. - Участвовать в развитии отдела тестирования и совершенствовании..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105415952"
+    },
+    {
+        "name": "Продуктовый аналитик",
+        "salary": {
+            "from": 0,
+            "to": 700000
+        },
+        "snippet": {
+            "responsibility": "на основе данных искать точки роста в продукте. - придумывать и анализировать запуски новых функций. - работать с большими данными. - "
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106606959"
+    },
+    {
+        "name": "Junior IOS разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "В поиске iOS разработчика в проект крупной финансовой компании. Проект - разработка мобильного приложения. Полноценную проектную команду с четким разделением ролей. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106211803"
+    },
+    {
+        "name": "Старший юрист",
+        "salary": {
+            "from": 250000,
+            "to": 350000
+        },
+        "snippet": {
+            "responsibility": "Корпоративная работа (российские ООО, АО). Согласование договоров. Составление сложных договоров. Работа с доверенностями. Работа с локальными нормативными актами и прочими..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105695978"
+    },
+    {
+        "name": "Заместитель генерального директора",
+        "salary": {
+            "from": 250000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "...анализ использования платформы. Для выявления проблем и возможностей для улучшения. - пилотные проекты: запуск и контроль <highlighttext>тестов</highlighttext> для оценки новых решений."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105729015"
+    },
+    {
+        "name": "Администратор",
+        "salary": {
+            "from": 50000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнять план от 120%."
+        },
+        "area": {
+            "name": "Ижевск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106604260"
+    },
+    {
+        "name": "IOS Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка новой функциональности и архитектуры, поддержка текущих сервисов. Участие в принятии технических решений. Непосредственно влиять на продукт."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106655430"
+    },
+    {
+        "name": "Senior/Middle Frontend разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Внедрение данного решения позволит обеспечить:  автоматическое построение и актуализацию расписания операторов.  требуемый уровень обслуживания КЦ.  соблюдение регуляторных требований Трудового Законодательства.  "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/102788816"
+    },
+    {
+        "name": "HR Директор по персоналу / Руководитель Отдела Персонала / HRD (Гибрид / Офис или Удаленно)",
+        "salary": {
+            "from": 120000,
+            "to": 200000
+        },
+        "snippet": {
+            "responsibility": "Регулярный рекрутинг (от сотрудников отдела продаж до линейного персонала) - подбор площадок, генерация откликов, собеседования, тестирования персонала. Разработка стратегии найма и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106606202"
+    },
+    {
+        "name": "Специалист по тестированию ПО",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Тестировать программное обеспечение. Тестировать требования (в рамках доработки программного продукта). Создавать <highlighttext>тест</highlighttext>-кейсы (планы тестирования). Находить и локализовывать ошибки там..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106184555"
+    },
+    {
+        "name": "Младший аналитик",
+        "salary": {
+            "from": 0,
+            "to": 75000
+        },
+        "snippet": {
+            "responsibility": "...автоматизация получения таких данных. Проверка данных в БД, исправление ошибок. Рефакторинг кода, обогащения словарей, техническая документация. Подведение итогов АВ-<highlighttext>тестов</highlighttext>."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106469611"
+    },
+    {
+        "name": "QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разрабатывать тестовую документацию и критерии приемки. Писать <highlighttext>тест</highlighttext> планы и готовить тестовые данные. Контрибьютить в автотесты в меру своих скилов..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106001324"
+    },
+    {
+        "name": "Middle+/Senior frontend developer (React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разрабатывать автоматические модульные <highlighttext>тесты</highlighttext>, автоматические скрипты и <highlighttext>тесты</highlighttext> развертывания. Проводить code review. Документировать разрабатываемые компоненты ПО. Работать с техническим бэклогом. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106096125"
+    },
+    {
+        "name": "Backend - разработчик Python",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106519657"
+    },
+    {
+        "name": "Frontend разработчик (React)",
+        "salary": {
+            "from": 0,
+            "to": 230000
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Екатеринбург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106611124"
+    },
+    {
+        "name": "Ведущий разработчик Java",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проектирование и разработка модулей back-end приложения. Покрытие <highlighttext>тестами</highlighttext> разработанного функционала. Проведение code review коллег по команде. Декомпозиция и оценка..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/104305416"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Поддержка тестовых сред. Написание методик тестирования и разработка <highlighttext>тест</highlighttext>-кейсов. Фиксация ошибок в системе баг-трекинга. Проверка нового реализованного функционала."
+        },
+        "area": {
+            "name": "Вологда"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106521665"
+    },
+    {
+        "name": "Модератор социального сервиса (Фото)",
+        "salary": {
+            "from": 21125,
+            "to": 27375
+        },
+        "snippet": {
+            "responsibility": "Модерировать текстовые сообщения, фотографии, жалобы пользователей на профили и фото. - Искать и выделять спамеров из общего потока. - Верифицировать пользователей. - "
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106576741"
+    },
+    {
+        "name": "Редактор сайта theGirl.ru",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "...будням 6 публикаций (2 статьи, 1 <highlighttext>тест</highlighttext>, 3 новости) + 4 статьи и 2 <highlighttext>теста</highlighttext> на выходные (материалы подготавливаются заранее..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/97602231"
+    },
+    {
+        "name": "QA engineer",
+        "salary": {
+            "from": 70000,
+            "to": 110000
+        },
+        "snippet": {
+            "responsibility": "Тестировать мобильные приложения, сайты, сопутствующие сервисы и API. Разрабатывать алгоритмы тестирования, составление сопутствующей документации. Обеспечение качества разрабатываемых продуктов, участвовать в..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106239655"
+    },
+    {
+        "name": "Python developer / Python разработчик (FastAPI)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Пайплайны настроены на Gitlab CI, в которых запускаются MyPy, Flake, Black и интеграционные <highlighttext>тесты</highlighttext> на PyTest. Сервисы на FastAPI в..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106262003"
+    },
+    {
+        "name": "Веб-дизайнер",
+        "salary": {
+            "from": 50000,
+            "to": 70000
+        },
+        "snippet": {
+            "responsibility": "Дизайн рекламных материалов: веб-баннеров, листовок, презентаций. Проведение <highlighttext>тест</highlighttext>-дизайна сайтов. Выполнение работ по внутренним проектам компании смежных департаментов. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106515521"
+    },
+    {
+        "name": "Руководитель отдела продаж",
+        "salary": {
+            "from": 150000,
+            "to": 250000
+        },
+        "snippet": {
+            "responsibility": "Фин показатели: Готовая система обучения новых менеджеров (папки, регламенты, видео, <highlighttext>тесты</highlighttext>) - от ГребенюкРезалтинг. Продукт, за который не стыдно перед клиентами."
+        },
+        "area": {
+            "name": "Самара"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106627666"
+    },
+    {
+        "name": "Управляющий сетью ресторанов",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка стратегических решений по развитию сети ресторанов в рамках существующей концепции сети GOSTI GROUP. Укрепление бренда компании GOSTI GROUP на..."
+        },
+        "area": {
+            "name": "Сочи"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106598929"
+    },
+    {
+        "name": "Разработчик front-end",
+        "salary": {
+            "from": 30000,
+            "to": 70000
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Смоленск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106570436"
+    },
+    {
+        "name": "QA Engineer / Тестировщик ПО",
+        "salary": {
+            "from": 80000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Выполнением ручного тестирования web-приложений, интеграций с внешними сервисами и оборудованием на соответствие функциональным и нефункциональным требованиям. Проведением тестирования требований..."
+        },
+        "area": {
+            "name": "Владимир"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106647367"
+    },
+    {
+        "name": "Android Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка новой функциональности и архитектуры, поддержка текущих сервисов. Участие в принятии технических решений. Непосредственно влиять на продукт."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106655441"
+    },
+    {
+        "name": "Frontend-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Frontend разработка нового сервиса с учетом текущего функционала и нового интерфейса. Разработка по гибким методологиям Agile (Scrum). Проработка спецификации и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106403999"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 70000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Распределять задачи по этапам тестирования (интеграционное, функциональное, регрессионное, ре-<highlighttext>тест</highlighttext> дефектов), задачи от ТП. Проводить <highlighttext>тесты</highlighttext>, анализировать результаты и составлять..."
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106131475"
+    },
+    {
+        "name": "Senior QA Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Анализ требований, фиксирование и закрытие дефектов. Создание и актуализация <highlighttext>тест</highlighttext>-кейсов. Проведение функционального, exploratory, ui/ux тестирования. Работа с багтрекинг..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106627735"
+    },
+    {
+        "name": "Стажёр Специалист по тестированию",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Понять, как проводить ручное тестирование простых приложений. Разобраться, как правильно писать <highlighttext>тест</highlighttext>-кейсы. Научиться писать простые автотесты на языке Java. "
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106654296"
+    },
+    {
+        "name": "Junior Java backend developer",
+        "salary": {
+            "from": 50000,
+            "to": 80000
+        },
+        "snippet": {
+            "responsibility": "...SQL-запросов, NoSQL запросов. Готовность работать в команде и разбираться в чужом коде. Поддержка работоспособности веб приложений. Написание unit-<highlighttext>тестов</highlighttext>."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106672280"
+    },
+    {
+        "name": "Тестировщик отдела разработки ПО",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Ручное тестирование программно-аппаратного комплекса. Формирование <highlighttext>тест</highlighttext>-кейсов. Формирование отчетов по результатам тестирования. Взаимодействие с командой разработки для уточнения требований..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106670587"
+    },
+    {
+        "name": "Junior UX/UI Дизайнер (GameDev)",
+        "salary": {
+            "from": 80000,
+            "to": 120000
+        },
+        "snippet": {
+            "responsibility": "Создание и совершенствование привлекательных и доступных интерфейсов. Проектирование взаимодействия с интерфейсом. Разработка продающих механик и нового функционала. Участие в А..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/103041593"
+    },
+    {
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участвовать в разработке сервиса лицензирования платформы. Участвовать в планировании и декомпозиции задач, своевременно их выполнять. Покрывать код <highlighttext>тестами</highlighttext>. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106263685"
+    },
+    {
+        "name": "Python Backend Developer (Удаленно)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Омск"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106666291"
+    },
+    {
+        "name": "Middle Front-end Developer (Vue.js)",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разрабатывать быстрые и удобные для пользователя интерфейсы с нуля. Реализовывать бизнес-логику приложений совместно с back-end разработчиками."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106262046"
+    },
+    {
+        "name": "Frontend разработчик (React)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разрабатывать решения. Оптимизировать/улучшать фронтенд. Помогать с планированием/декомпозицией задач."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106444987"
+    },
+    {
+        "name": "Middle Manual QA-инженер",
+        "salary": {
+            "from": 80000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Играем на стороне клиента. Работа в аккредитованной IT-компании."
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106663265"
+    },
+    {
+        "name": "QA engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Слаженную коммуникацию с командой. Взаимная помощь и поддержка."
+        },
+        "area": {
+            "name": "Пенза"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106664965"
+    },
+    {
+        "name": "Мастер-портной в Дом Моды",
+        "salary": {
+            "from": 120000,
+            "to": 180000
+        },
+        "snippet": {
+            "responsibility": "Профессиональный и качественный отшив изделий по индивидуальным меркам клиента совместно с конструктором закройщиком и технологом определив технологию создания изделия и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/104372196"
+    },
+    {
+        "name": "Личный / персональный водитель руководителя",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Обеспечение мобильности руководителя - своевременная подача автомобиля и комфортное сопровождение до места назначения. Составление оптимального маршрута движения. Контроль технического состояния автомобиля..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/104893611"
+    },
+    {
+        "name": "Менеджер на wildberries",
+        "salary": {
+            "from": 60000,
+            "to": 130000
+        },
+        "snippet": {
+            "responsibility": "Самостоятельно смотреть изменения работы маркетплейсов и тестировать, находить новые эффективные методы работы (с рекламным кабинетом, или с <highlighttext>тестом</highlighttext> обложек и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106005378"
+    },
+    {
+        "name": "Junior Frontend-разработчик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Активно участвовать в развитии разрабатываемого ПО. Контроль качества кода. Написание unit/intergaration-<highlighttext>тестов</highlighttext> как при реализации UI библиотеки компонентов, так..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106045223"
+    },
+    {
+        "name": "Тестировщик (junior)",
+        "salary": {
+            "from": 0,
+            "to": 50000
+        },
+        "snippet": {
+            "responsibility": "Проводить регрессионное, интеграционное и функциональное тестирование. Работать с тестовой документацией (чек-листы, <highlighttext>тест</highlighttext>-кейсы, баг-репорты). Взаимодействовать с командой (разработчики..."
+        },
+        "area": {
+            "name": "Оренбург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106119929"
+    },
+    {
+        "name": "Python Backend Developer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка сервисов/микросервисов для направления Automotive. Разработка комплексных систем мониторинга и телеметрии, интеграции со внешними сервисами. Проводить code-review и..."
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106498675"
+    },
+    {
+        "name": "QA инженер (бэкенд разработка платформы)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Тестирование backend составляющих наших продуктов и БД (уверенные знания SQL). Тестирование микросервисов, работающих по протоколам AMQP и HTTP. Написание <highlighttext>тест</highlighttext>..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106549527"
+    },
+    {
+        "name": "Менеджер по подбору персонала",
+        "salary": {
+            "from": 120000,
+            "to": 150000
+        },
+        "snippet": {
+            "responsibility": "Мониторинг рынка труда и заработных плат. Адаптация новых сотрудников. Процедура оценки персонала (<highlighttext>тесты</highlighttext>, опросы). Взаимодействие с бухгалтерией в части формирования..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106609755"
+    },
+    {
+        "name": "Фронтенд-разработчик",
+        "salary": {
+            "from": 140000,
+            "to": 200000
+        },
+        "snippet": {
+            "responsibility": "...DevOps, компьютерного зрения, мобильной разработки и клиентской поддержки. Оценка и декомпозиция задач. Своевременное обновление проекта и зависимостей. Написание юнит-<highlighttext>тестов</highlighttext>."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106672892"
+    },
+    {
+        "name": "UX-Resercher Intern / UX-Исследователь(Cтажер)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Проводить исследования на всех этапах проекта: от кабинетного анализа до UX-<highlighttext>тестов</highlighttext> и глубинных интервью. Анализировать данные и формировать выводы. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106662690"
+    },
+    {
+        "name": "Digital-дизайнер / Веб-дизайнер",
+        "salary": {
+            "from": 137000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "...с учетом требований конструктора для создания шаблонов. Готовность исследовать эффективность своих решений и вносить изменения по результатам A/B <highlighttext>тестов</highlighttext>."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106577400"
+    },
+    {
+        "name": "Тестировщик",
+        "salary": {
+            "from": 60000,
+            "to": 80000
+        },
+        "snippet": {
+            "responsibility": "Проверка соответствия функционала требованиям на этапе тестирования после разработки программистом. Проверка существующего функционала на соответствие формальным (описанным в документации), либо..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105644623"
+    },
+    {
+        "name": "QA инженер",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Составление отчетов по обнаруженным ошибкам, оформление найденных ошибок или проблем производительности. Анализ результатов и показателей проведенных <highlighttext>тестов</highlighttext>. Взаимодействие с командой..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106577478"
+    },
+    {
+        "name": "QA Engineer / Ручной тестировщик WEB-приложений (middle)",
+        "salary": {
+            "from": 80000,
+            "to": 140000
+        },
+        "snippet": {
+            "responsibility": "Тестировать вручную фронт и бэк наших web-приложений, преимущественно методом черного, серого ящиков. Писать подробные баг-репорты и заносить их..."
+        },
+        "area": {
+            "name": "Самара"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106595993"
+    },
+    {
+        "name": "Manual QA (Middle/Senior)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Участие в развитии и улучшении тестовой документации (<highlighttext>тест</highlighttext>-кейсы, чек-листы и тд). Работа с большим объемом данных. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106622848"
+    },
+    {
+        "name": "QA engineer / Специалист по тестированию (бэк и фронт)",
+        "salary": {
+            "from": 100000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Первое время нужно будет много «работать руками», потом формировать команду отдела тестирования под себя. Выполнять работу по тестированию и контролю..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106402774"
+    },
+    {
+        "name": "Сварщик (командировки по России)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Работа на выезде( по разным городам России) в составе ремонтной бригады. Сварка полуавтоматом. Ручная дуговая сварка. Резка металла кислородно-пропановым..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105365897"
+    },
+    {
+        "name": "Продавец-консультант в магазин цифровой техники",
+        "salary": {
+            "from": 83000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Доброжелателен и готов помогать клиентам с выбором. Работать с покупателями в торговом зале - консультировать, осуществлять продажи, работать с кассой. "
+        },
+        "area": {
+            "name": "Нижний Новгород"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105882851"
+    },
+    {
+        "name": "Тестировщик ПО (Middle)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Ручное тестирование в соответствии с требованиями заказчика. Написание <highlighttext>тест</highlighttext>-кейсов, чек-листов, актуализация тестовой документации, поиск и подготовка сценариев для..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106620510"
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": {
+            "from": 80000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Оформлять запись на прием в наши лабораторные центры. Консультировать по услугам лаборатории (сроки, цены, способы сдачи <highlighttext>теста</highlighttext>, образцы- хранение и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/104465458"
+    },
+    {
+        "name": "Маркетолог",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Анонсировать продукты и другие проекты «Сирены» на всех платформах Спортса''. Создавать и развивать комьюнити продуктов студии, формировать привычку возвращаться в..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106358737"
+    },
+    {
+        "name": "Тестировщик игр",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Анализ спецификаций и задач клиента, адаптация <highlighttext>тест</highlighttext>-планов от клиента или создание собственных <highlighttext>тест</highlighttext>-планов на основе материалов клиента. "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106406634"
+    },
+    {
+        "name": "Middle QA engineer",
+        "salary": {
+            "from": 120000,
+            "to": 180000
+        },
+        "snippet": {
+            "responsibility": "Разработка тестовых сценариев, <highlighttext>тест</highlighttext>-кейсов, <highlighttext>тест</highlighttext>-планов, чек-листов, поддержание их в актуальном состоянии. Анализ результатов тестирования и предоставление отчетов..."
+        },
+        "area": {
+            "name": "Ростов-на-Дону"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106580708"
+    },
+    {
+        "name": "Администратор reception",
+        "salary": {
+            "from": 46000,
+            "to": 56000
+        },
+        "snippet": {
+            "responsibility": "Прием входящих звонков, распределение по ДЦ. Прием и регистрация входящей/исходящей документации. Ведение установленной отчетности. Запись на <highlighttext>тест</highlighttext>-драйв клиентов..."
+        },
+        "area": {
+            "name": "Тверь"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106180814"
+    },
+    {
+        "name": "Frontend разработчик Middle (React)",
+        "salary": {
+            "from": 180000,
+            "to": 220000
+        },
+        "snippet": {
+            "responsibility": "Продуктовая разработка. ⁃ Написание юнит-<highlighttext>тестов</highlighttext>, проведение код-ревью. ⁃ Работа с документацией, архитектурное; планирование проекта и релизов."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106560110"
+    },
+    {
+        "name": "Куратор",
+        "salary": {
+            "from": 200000,
+            "to": 250000
+        },
+        "snippet": {
+            "responsibility": "Встречать учеников на пробное/первое занятие и провожать к тренеру. Брать у учеников <highlighttext>тесты</highlighttext> для проверки знаний раз 2 недели. "
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105685157"
+    },
+    {
+        "name": "Fullstack Middle QA-engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Тестирование фронтенда, бекенда и автономных сервисов на PHP для проекта в сфере AdTech. Проведение ручного тестирования: UI, API. "
+        },
+        "area": {
+            "name": "Казань"
+        },
+        "alternate_url": "https://hh.ru/vacancy/105851241"
+    },
+    {
+        "name": "Офис-менеджер в образовательный центр",
+        "salary": {
+            "from": 200000,
+            "to": 300000
+        },
+        "snippet": {
+            "responsibility": "Консультировать посетителей по вопросам наличия имеющихся услуг. Подготовка <highlighttext>тестов</highlighttext> для учеников. Соблюдать порядок и чистоту на рабочем месте. "
+        },
+        "area": {
+            "name": "Алматы"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106118734"
+    },
+    {
+        "name": "Специалист по управлению качеством КИ|Quality Assurance Associate",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка, согласование и внедрение документированных процедур. Разработка инструкций и документов СМК. Адаптация существующей СМК к требованиям ISO 9001. "
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106502655"
+    },
+    {
+        "name": "Стажер-тестировщик",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Описание отсутствует"
+        },
+        "area": {
+            "name": "Саратов"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106556656"
+    },
+    {
+        "name": "QA-Engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Помогать в разработке и поддержке тестовой документации (<highlighttext>тест</highlighttext>-кейсы, чек-листы, баг-репорты). Проводить ручное, автоматическое тестирование и выявление проблем..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106475013"
+    },
+    {
+        "name": "Актриса/актер/блогер/модель на YouTube канал",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "участие в съемках видеоконтента для YouTube канала. - видео в форматах: обзоры, распаковки, краш-<highlighttext>тесты</highlighttext>, asmr и другое."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106005384"
+    },
+    {
+        "name": "QA engineer",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Анализ требований и подготовка тестовой документации и данных (<highlighttext>тест</highlighttext>-кейсы, планы тестирования, чек-листы, программы и методики испытаний). "
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106464244"
+    },
+    {
+        "name": "Тестировщик / QA Инженер (Bitrix24)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Контроль полноты описания требований в задачах для возможности проведения тестирования. Функциональное тестирование как отдельных модулей, так и всей системы в..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106578821"
+    },
+    {
+        "name": "Дизайнер одежды",
+        "salary": {
+            "from": 70000,
+            "to": 90000
+        },
+        "snippet": {
+            "responsibility": "Разработать новую коллекцию одежды по направлению стритстайл на основе анализа стрит-рынка и нашей целевой аудитории. Совместно с конструктором разрабатывать..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106658938"
+    },
+    {
+        "name": "Персональный ассистент руководителя",
+        "salary": {
+            "from": 200000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Ведение календаря, организация встреч, запись на услуги. Travel support (организация логистики). Освобождение от рутинных задач. Коммуникация с приемной партнера руководителя..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106286430"
+    },
+    {
+        "name": "Ресепшен в автосалон BYD",
+        "salary": {
+            "from": 3000000,
+            "to": 5000000
+        },
+        "snippet": {
+            "responsibility": "Консультирование посетителей по услугам и автомобилям. - Организация записи на <highlighttext>тест</highlighttext>-драйвы и встречи с менеджерами. - Обработка входящих звонков и сообщений. - "
+        },
+        "area": {
+            "name": "Ташкент"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106588911"
+    },
+    {
+        "name": "HR-директор",
+        "salary": {
+            "from": 250000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Формирование внутреннего и внешнего кадрового резерва. Участие в разработке и анализе профессиональных <highlighttext>тестов</highlighttext> и ассессмент-центров для оценки навыков и..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106622251"
+    },
+    {
+        "name": "Junior android разработчик",
+        "salary": {
+            "from": 50000,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Двусторонняя маркетинговая e2e площадка и сервис по ремонту. Тысячи заказов в день по всей России. b2b..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106247430"
+    },
+    {
+        "name": "QA Engineer / Ручной тестировщик WEB-приложений (middle)",
+        "salary": {
+            "from": 80000,
+            "to": 140000
+        },
+        "snippet": {
+            "responsibility": "Тестировать вручную фронт и бэк наших web-приложений, преимущественно методом черного, серого ящиков. Писать подробные баг-репорты и заносить их..."
+        },
+        "area": {
+            "name": "Санкт-Петербург"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106595984"
+    },
+    {
+        "name": "Frontend-разработчик React/TypeScript (продуктовая разработка)",
+        "salary": {
+            "from": 0,
+            "to": 0
+        },
+        "snippet": {
+            "responsibility": "Разработка и поддержка веб-решений на базе React+TypeScript+MobX. Участие в разработке библиотек компонентов. Покрытие кода <highlighttext>тестами</highlighttext>. Взаимодействие с другими командами..."
+        },
+        "area": {
+            "name": "Москва"
+        },
+        "alternate_url": "https://hh.ru/vacancy/106140402"
+    }
+]
